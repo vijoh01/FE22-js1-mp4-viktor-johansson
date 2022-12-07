@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text-container svg {
+    height: 10rem;
+    display: flex;
+    filter: drop-shadow(10px 5px 2px #2e2ebc);
+}
+
+#letter-container {
+    display: flex;
+    gap: 2rem;
+    transform: translateY(-1000px);
+}
+
+#text-container {
+    background-color: rgb(142, 159, 255);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 20rem;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+#arrows {
+    transform: translateX(-30rem);
+    display: flex;
+}
+
+path {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 0;
+    stroke: rgb(70, 166, 79);
+    fill: rgb(11, 92, 96);
+    stroke-width: .5px;
+}
