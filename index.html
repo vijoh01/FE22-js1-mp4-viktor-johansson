@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;600;800;900&display=swap');
-    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./lib/anime.min.js"></script>
     <script src="./script.js"></script>
@@ -16,8 +13,12 @@
 </head>
 
 <body>
+    <div id="buttons">
+        <button id="play">Play/Pause</button>
+        <button id="stop">Stop</button>
+    </div>
     <div id="text-container">
-        <svg viewBox="0 0 42.45 66.14">
+        <svg viewBox="0 0 42.45 66.14" id="left-arrows">
             <path class="left-arrows"
                 d="M21.61,81.61q12.5,16.29,25,32.57H62.43L38.12,81.61,62.43,49.05H46.61Q34.1,65.33,21.61,81.61Z"
                 transform="translate(-20.98 -48.55)" />
